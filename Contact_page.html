@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Studio AKIRA</title>
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <h1 class="hidden">Studio AKIRA</h1>
+    <!--Where logo will be shown and placed -->
+    <header class="mainHeader">
+      <div class="logoHeader">
+        <h2 class="hidden">Logo section</h2>
+          <a href="index.html"><img src="images/logo4.svg" alt="Studio AKIRA logo" width="514" height="134" id="logo"></a>
+      </div>
+      <!--Here is where main nav starts-->
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+            <ul>
+               <li class="selected"><a href="index.html">HOME</a></li>
+               <li><a href="About_page.html">ABOUT</a></li>
+               <li><a href="#">BLOG</a></li>
+               <li><a href="Gallery_page.html">GALLERY</a></li>
+               <li><a href="Contact_page.html">CONTACT</a></li>
+            </ul>
+      </nav>
+    </header>
+    
+    <!--Where main body part of the page will begin -->
+    <section class="hero">
+      <h2 class="hidden">Photo slide show section</h2>
+      <!--thanks marco for showing how to do this-->
+      <div id="heroSlider">
+       <div id="heroImages">
+        <h3 class="hidden">Photo slide images</h3>
+        <img id="si_1" src="images/bw_1.jpg" alt="photo slide" />
+        <img id="si_2" src="images/bw_2.jpg" alt="photo slide" />
+        <img id="si_3" src="images/photo_6.jpg" alt="photo slide" />
+        <img id="si_4" src="images/photo_7.jpg" alt="photo slide" />
+        <img id="si_5" src="images/photo13.jpg" alt="photo slide" />
+       </div>
+     </div>
+    </section>
+     <!--start mainGallery-->
+    <section id="mainContact">
+        <h2><span class="custom2">Contact <span class="custom"> Us</span></span></h2>
+          <section id="contactArea"><!--start contactArea-->
+            <h2 class="hidden">Contact form</h2>
+              <p id="contactText">Studio Akira is a unique photography and videography studio located at 535 Proudfoot Lane in growing city of London, Ontario.  We are in the office Monday through Friday and will always get back to you as soon as we can. You can reach us by email at info@studio_akira.com or by phone at 519-215-4493.
+            </p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name* </label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email* </label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Subject* </label>
+                    <input type="tel" required id="phone" size="30" placeholder="Let us know what is the subject">
+                    
+                    <label for="comments">Message* </label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+          </section><!--end contactArea-->  
+            
+
+            <!--start mapArea-->
+            <section id="mapSection">
+              <h3>Visit Us</h3>
+               <p>Studio AKIRA,<br>London, Canada<br>Phone:1-519-215-4493<br>Fax: 1-519-215-215-4493</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11674.983776777508!2d-81.28271765032434!3d42.98362507590857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1c4325fe437%3A0xb92b73878e71b95a!2s535+Proudfoot+Ln%2C+London%2C+ON+N6H+5X2!5e0!3m2!1sen!2sca!4v1543427284825" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section>
+            <!--end mapArea-->      
+        </section>
+        <!--end mainContact-->
+
+    
+    <!--This is the footer section of the page-->
+    <section class="mainFooter">
+      <footer class="mainFooter">
+      <h2 class="hidden">Main Footer</h2>
+      <div class="logoNav">
+        <div class="logoFooter">
+          <a href="index.html"><img src="images/logo4.svg" alt="Studio AKIRA logo" width="230" height="43"></a>
+        </div>
+        <nav class="footerNav">
+          <h3 class="hidden">Footer Navigation</h3>
+            <ul>
+                 <li><a href="index.html">HOME</a></li>
+                  <li><a href="About_page.html">ABOUT</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="Gallery_page.html">GALLERY</a></li>
+                  <li><a href="Contact_page.html">CONTACT</a></li>
+              </ul>
+        </nav>
+      </div>  
+
+      <div class="smiconsection">
+        <h3 class="hidden">Social Media icons</h3>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="images/fb.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="images/yt.svg" alt="youtube">
+              </a>
+           </li>
+           <li id="instagram">
+              <a href="http://www.instagram.com">
+                <img src="images/insta.svg" alt="instagram">
+              </a>
+           </li>
+        </ul>
+        <!--terms and con section-->
+        <h3 class="hidden"> Terms and conditions</h3>
+        <span class="terms" style="font-size: 10px;">@Studio AKIRA 2018 TERMS & CONDITIONS <br> PRIVACY POLICY CONTACT US</span>
+      </div>     
+    </footer>
+   </section>
+  </main>
+  
+  
+</body>
+</html>
