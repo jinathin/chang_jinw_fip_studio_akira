@@ -27,13 +27,13 @@ filter: grayscale(0%);
 
 .custom 
 {
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 	color: red;
 	
 }
 .custom2
 {
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	color: black;
 }
@@ -142,7 +142,7 @@ filter: grayscale(0%);
 	margin-right: 25px;
 	line-height: 40px;
 	font-weight: normal;
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 }
 
 .mainFooter
@@ -250,7 +250,7 @@ filter: grayscale(0%);
 .logoFooter
 {
 	margin-top: 25px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 
@@ -265,7 +265,7 @@ filter: grayscale(0%);
 	margin-right: 25px;
 	margin-left: 25px;
 	margin-bottom: 15;
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 
 }
 .aboutinfo
@@ -301,7 +301,7 @@ filter: grayscale(0%);
 	margin-top: 10px;
 	line-height: 22px;
 	margin: 5px;
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -327,7 +327,7 @@ filter: grayscale(0%);
   color: #b5283e;
   margin-bottom: 40px;
   padding: 8px 0px 8px 5px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -359,8 +359,7 @@ filter: grayscale(0%);
   margin-top: 0;
   border-bottom: 1px solid #666;
   padding-bottom: 15px;
-  font-family: "Open Sans";
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 .galleryimg img
@@ -419,7 +418,7 @@ filter: grayscale(0%);
   font-size: 16px;
   margin-bottom: 30px;
   width: 380px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
 }
 
 #contactForm{
@@ -438,7 +437,7 @@ input, textarea
   display: block;
   border: 2px solid black;
   color: #333;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
 }
 
 #messages
@@ -462,7 +461,7 @@ input, textarea
   background-color: #b5283e;
   font-size: 15px;
   border: 2px solid black;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
 }
 
 #mapSection
@@ -477,7 +476,7 @@ input, textarea
   font-size: 16px;
   margin-top: 0;
   color: #b5283e;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -486,7 +485,7 @@ input, textarea
   list-style-type: none;
   padding-bottom: 20px;
   padding-top: 10px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
 } 
